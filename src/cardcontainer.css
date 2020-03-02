@@ -1,0 +1,22 @@
+body {
+  color: black;
+}
+
+.cardcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardcontainer {
+    display: block;
+  }
+}
